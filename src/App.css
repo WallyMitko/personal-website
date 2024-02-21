@@ -1,0 +1,91 @@
+#root {
+	width: 100%;
+	margin: 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+
+#main {
+	max-width: 1000px;
+	flex-basis: 90%;
+	flex-grow: 1;
+}
+
+#top-bar {
+	flex-basis: 10%;
+	width: 100%;
+	background-color: #333;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#top-bar-heading {
+	margin: auto auto auto 10px;
+	flex: 1 50%;
+}
+
+#top-bar-nav {
+	margin: auto 10px auto auto;
+	height: 3rem;
+	flex: 1 10%;
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.top-bar-nav-item {
+	flex: 1 10%;
+	text-align: center;
+}
+
+.top-bar-nav-item:hover {
+	background-color: dimgrey;
+}
+
+.nav-link {
+	color: white;
+	text-decoration: none;
+	line-height: 3rem;
+}
+
+.resume {
+	display: flex;
+}
+
+h2 {
+	margin-bottom: auto;
+}
+
+.resume-card {
+	flex-basis: 10%;
+	flex-grow: 1;
+	background-color: #333;
+	border-radius: 10px;
+	padding: 5px 10px;;
+	margin-top: 10px;
+}
+
+.resume-entry-title {
+	margin: auto;
+}
+
+.resume-entry-subtitle {
+	margin: auto;
+}
+
+.resume-entry-dates {
+	margin: auto;
+}
+
+.contact-info {
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 2px auto;
+}
+
+.contact-phone-text {
+	margin: auto;
+}
